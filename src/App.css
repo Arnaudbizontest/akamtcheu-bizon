@@ -1,0 +1,86 @@
+.App {
+  text-align: center;
+}
+
+
+
+.App-header {
+  background-color: #282c34;
+  min-height: 10vh;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.blue {
+  color :blue;
+}
+
+.yellow{
+  color:yellow;
+}
+
+main {
+  background-color: #282c34;
+  min-height: 80vh;
+  color:white;
+  padding-top:50px;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.form-control {
+  width: 30vw;
+}
+
+.form-group {
+  display: inline-block;
+}
+
+.btn{
+  margin-left:2vw;
+  font-size: 1em;
+}
+
+td {
+  text-align: left;
+  max-width: 45vw
+}
+
+.right_side, .left_side {
+  
+  width:45vw;
+}
+.avatar{
+  width:200px;
+}
+.avatar > img {
+  width:100%;
+}
+
+.author_identity{
+  display:flex;
+}
+
+.box_component{
+  display: flex;
+}
+
+a{
+  text-decoration: none;
+  color : white;
+}
+
+a:hover {
+  color: green;
+}
