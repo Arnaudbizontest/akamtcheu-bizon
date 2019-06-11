@@ -61,6 +61,9 @@ td {
   
   width:45vw;
 }
+.right_side , .left_side{
+  margin-left:5vw;
+}
 .avatar{
   width:200px;
 }
@@ -70,6 +73,11 @@ td {
 
 .author_identity{
   display:flex;
+}
+
+.identity{
+  margin-left:2vw;
+  text-align: start;
 }
 
 .box_component{
@@ -83,4 +91,15 @@ a{
 
 a:hover {
   color: green;
+}
+
+td {
+  overflow: hidden;
+}
+.green{
+  color:green;
+}
+.form-group {
+  display:block;
+  margin-bottom:30px;
 }
